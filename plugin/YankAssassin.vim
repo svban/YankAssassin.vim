@@ -1,6 +1,6 @@
 " Don't move cursor to the start of the text, after yanking it
 " Last Change: 2021 Dec 30
-" Maintainer: dam0n
+" Maintainer: svban
 
 if exists("g:loaded_yankassassin")
   finish
