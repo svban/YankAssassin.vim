@@ -2,7 +2,7 @@
 It is really annoying when you want to yank text and paste it close to your cursor and your cursor moves to the start of the yanked text. Especially when you are using text-objects. This plugin helps you fix it. Basically, while Yanking your cursor will not move to the start of the Yanked Text.
 
 ## Demo
-![Imgur](https://imgur.com/eVsNWSC)
+![yiw](images/1.gif)
 ![Text Objects](images/2.gif)
 ![Visual Selection](images/3.gif)
 
