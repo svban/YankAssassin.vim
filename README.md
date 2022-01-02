@@ -14,7 +14,7 @@ It is really annoying when you want to yank text and paste it close to your curs
 
 ## Installation
 - Vim plug -
-    `Plug 'dam0n/YankAssassin.vim'`
+    `Plug 'svban/YankAssassin.vim'`
 - or install it, just like you would any vim-plugin.
 
 ## Options
