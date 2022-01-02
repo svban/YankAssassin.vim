@@ -2,9 +2,10 @@
 It is really annoying when you want to yank text and paste it close to your cursor and your cursor moves to the start of the yanked text. Especially when you are using text-objects. This plugin helps you fix it. Basically, while Yanking your cursor will not move to the start of the Yanked Text.
 
 ## Demo
-![yiw](images/1.gif)
-![Text Objects](images/2.gif)
-![Visual Selection](images/3.gif)
+![1](https://user-images.githubusercontent.com/69670983/147871602-d5f1a6cb-97d4-4950-bb0f-ef7579b27852.gif)
+![2](https://user-images.githubusercontent.com/69670983/147871603-813e3248-a093-4915-b209-cad5da276aca.gif)
+![3](https://user-images.githubusercontent.com/69670983/147871606-bb17d8a6-53b2-4177-ac48-1c677f2f46c3.gif)
+
 
 ## Features
 1. Both Mapping-less(better) & Mapping-plus Solution.
