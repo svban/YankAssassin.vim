@@ -1,5 +1,5 @@
 " Don't move cursor to the start of the text, after yanking it
-" Last Change: 2021 Dec 30
+" Last Change: 2022 Mar 11
 " Maintainer: svban
 
 if exists("g:loaded_yankassassin")
@@ -15,6 +15,7 @@ let g:yankassassin_use_mappings = exists("g:yankassassin_use_mappings") ? g:yank
 if g:yankassassin_use_mappings == 0
     augroup s:NoMoveYank
         autocmd!
+        autocmd VimEnter * let s:NoMapPreYankPos = getpos('.')
         autocmd CursorMoved * let s:NoMapPreYankPos = getpos('.')
         autocmd TextYankPost * call s:YankAssassin()
     augroup END
